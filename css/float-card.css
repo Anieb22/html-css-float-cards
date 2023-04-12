@@ -60,3 +60,13 @@
     float: right;
     width: calc(100% - 100px);
 }
+
+
+a, .contenitore, div, h3{
+    margin-bottom: 15px;
+}
+
+a{
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+}
