@@ -5,9 +5,8 @@
     font-family: 'Lilita One', cursive;
 }
 .container{
-    margin-top: 20px;
     width: 1000px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 .testo-centro{
