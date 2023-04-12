@@ -5,14 +5,40 @@
     font-family: 'Lilita One', cursive;
 }
 .container{
-    width: 1000px;
-    margin: 20px auto;
+    max-width: 75%;
+}
+
+.spazio-container{
+    margin:50px auto;
 }
 
 .testo-centro{
     text-align: center;
 }
+
+.col{
+    float: left;
+    width: calc(100% / 3 - 20px);
+}
+
+.row{
+    width: 100%;
+}
+
 .testo-rosa{
     color: #E53170;
     font-size: 30pt;
+}
+
+.contenitore-card{
+    text-align: left;
+    background-color:#0F0E17;
+}
+
+.misure-immagini{
+    width: 100px;
+}
+
+.testo-bianco{
+    color: white;
 }
