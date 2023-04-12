@@ -38,9 +38,7 @@
     font-size: 30pt;
 }
 
-.contenitore-card{
-    background-color:#0F0E17;
-}
+
 
 .misure-immagini{
     width: 100px;
@@ -48,4 +46,22 @@
 
 .testo-bianco{
     color: white;
+}
+
+.carta{
+    background-color: #0F0E17;
+    color: white;
+    width: 100%;
+    height: 150px;
+}
+
+.propic{
+    float: left;
+    width: 100px;
+}
+
+.contenitore{
+    padding: 10px;
+    float: right;
+    width: calc(100% - 100px);
 }
