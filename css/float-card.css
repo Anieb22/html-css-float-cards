@@ -65,7 +65,7 @@
 .contenitore{
     padding: 5px;
     float: right;
-    width: calc(100% - 100px);
+    width: calc(100% - 125px);
 }
 
 h3{
@@ -73,7 +73,7 @@ h3{
 }
 
 h3, .spazio-testo{
-    margin-bottom: 15px;
+    margin: 15px auto;
 }
 
 .spazio-testo{
