@@ -6,10 +6,7 @@
 }
 .container{
     max-width: 75%;
-}
-
-.spazio-container{
-    margin:50px auto;
+    margin: 50px auto;
 }
 
 .testo-centro{
@@ -17,12 +14,23 @@
 }
 
 .col{
-    float: left;
+    height: 150px;
     width: calc(100% / 3 - 20px);
+    float: left;
+    background-color: blue;
+    margin: 10px;
 }
 
 .row{
     width: 100%;
+    background-color: #E53170;
+
+}
+
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .testo-rosa{
@@ -31,7 +39,6 @@
 }
 
 .contenitore-card{
-    text-align: left;
     background-color:#0F0E17;
 }
 
